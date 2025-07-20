@@ -1,7 +1,6 @@
 # Sentiment Analysis API — FastAPI Backend
 
 This project wraps the Sentiment Analysis model in a FastAPI backend, exposing RESTful API endpoints for predictions, health checks, and example retrieval.  
-The API is built to be lightweight, Docker-ready, and easy to deploy.
 
 ---
 
@@ -25,14 +24,14 @@ The API is built to be lightweight, Docker-ready, and easy to deploy.
    cd <YOUR_PROJECT_DIRECTORY>
 
 
-2. **Build the Docker image:**
+2. **Build the Docker container**
 
    ```bash
-make build
+docker build -t sentiment-api .
 
 3. **Run the Docker container:**
    ```bash
-make run
+docker run -d -p 8000:8000 --name sentiment-container sentiment-api
 
 4. **Access the FastAPI application in your browser:**
 
