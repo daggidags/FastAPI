@@ -27,12 +27,12 @@ This project wraps the Sentiment Analysis model in a FastAPI backend, exposing R
 2. **Build the Docker container**
 
    ```bash
-docker build -t sentiment-api .
+   docker build -t sentiment-api .
 
 3. **Run the Docker container:**
    ```bash
-docker run -d -p 8000:8000 --name sentiment-container sentiment-api
+   docker run -d -p 8000:8000 --name sentiment-container sentiment-api
 
 4. **Access the FastAPI application in your browser:**
 
-http://localhost:8000/docs
+   http://localhost:8000/docs
