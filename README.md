@@ -20,8 +20,8 @@ This project wraps the Sentiment Analysis model in a FastAPI backend, exposing R
 1. **Clone the repository:**
 
    ```bash
-   git clone <YOUR_REPO_URL>
-   cd <YOUR_PROJECT_DIRECTORY>
+   git clone https://github.com/daggidags/Assignment_3_FASTAPI.git
+   cd Assignment_3_FASTAPI
 
 
 2. **Build the Docker container**
